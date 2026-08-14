@@ -101,8 +101,64 @@ Renk kodu bulmak için: <https://htmlcolorcodes.com>
 
 ---
 
-## 4. Değişikliği yayına alma
+## 4. En kolay yol: tarayıcıdan düzenleme (program kurmadan)
 
-Dosyayı kaydettikten sonra değişiklik **kendiliğinden yayına girmez**.
-GitHub'a yükledikten sonra Vercel otomatik olarak siteyi günceller.
-Bunun nasıl yapıldığını sohbette adım adım anlattım.
+Bilgisayarınızdaki dosyalarla hiç uğraşmanıza gerek yok. Siteyi doğrudan
+tarayıcıdan düzenleyebilirsiniz. Kaydettiğiniz an site kendini günceller.
+
+### Adım adım
+
+**1.** Şu adrese gidin:
+<https://github.com/Toterwacker/-major-gayrimenkul>
+
+**2.** Dosya listesinde **`index.html`** yazısına tıklayın.
+
+**3.** Sayfanın sağ üstünde küçük bir **kurşun kalem ✏️ simgesi** var. Ona tıklayın.
+(Üzerine gelince "Edit this file" yazar.)
+
+**4.** Artık yazıları değiştirebilirsiniz. Aradığınız yeri bulmak için
+**Ctrl + F** ile arama yapın.
+
+**5.** İşiniz bitince sağ üstteki yeşil **"Commit changes..."** düğmesine basın.
+
+**6.** Küçük bir pencere açılır. Üstteki kutuya ne değiştirdiğinizi kısaca
+yazın (örn. `telefon numarası eklendi`). Bu sadece sizin hatırlamanız için.
+
+**7.** Yeşil **"Commit changes"** düğmesine basın.
+
+**8.** Bitti. **Yaklaşık 1 dakika bekleyin**, sonra sitenizi açıp yenileyin
+(Ctrl + F5). Değişiklik orada olacak.
+
+### Önemli uyarılar
+
+- `<` ve `>` işaretleri arasındaki kodlara **dokunmayın**. Sadece aralarındaki
+  düz yazıyı değiştirin. Örnek:
+  `<h3>Konut satışı</h3>` → `<h3>Arsa satışı</h3>` ✅
+- Yanlış bir şey yaparsanız **hiçbir şey kaybolmaz**. GitHub her değişikliği
+  saklar; deponun üstündeki **"Commits"** bölümünden eski hâline dönebilirsiniz.
+- Site 1 dakika içinde güncellenmezse: Vercel'de
+  <https://vercel.com/ali-2a69/major-gayrimenkul/deployments> adresinden
+  en üstteki satırın **"Ready"** olmasını bekleyin.
+
+---
+
+## 5. Bir bölümü tamamen silme veya yeni bölüm ekleme
+
+**Silmek için:** `index.html` içinde şuna benzer büyük harfli açıklama
+satırlarını arayın:
+
+```
+<!-- ============================================================
+     HİZMETLER
+     ============================================================ -->
+```
+
+Bu açıklamadan başlayıp, o bölümün kapanışı olan `</section>` satırına kadar
+olan **her şeyi** silin. Bir de üst menüden ilgili bağlantıyı silin:
+`<a href="#hizmetler">Hizmetler</a>`
+
+**Hizmet kartı eklemek için:** `<article class="kart belir">` ile başlayıp
+`</article>` ile biten bloklardan birini komple kopyalayıp hemen altına
+yapıştırın, sonra başlığını ve metnini değiştirin.
+
+Emin olamadığınız bir şey olursa bana sorun — birlikte yaparız.
