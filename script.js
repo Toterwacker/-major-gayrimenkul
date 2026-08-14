@@ -1,5 +1,5 @@
 /* ============================================================
-   MAVİ EŞİK GAYRİMENKUL — küçük sayfa davranışları
+   MAJÖR GAYRİMENKUL — küçük sayfa davranışları
    ============================================================ */
 
 /* 1) Telefonda menüyü açıp kapatma */
