@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     SAYFA BAŞLIĞI VE ARAMA MOTORU BİLGİLERİ
+     Google'da ve tarayıcı sekmesinde görünen yazılar burada.
+     ============================================================ -->
+<title>MAJÖR Gayrimenkul — İskenderun'da alım, satım, kiralama</title>
+<meta name="description" content="Hatay İskenderun'da 2011'den beri konut satışı, kiralama, ticari gayrimenkul ve yatırım danışmanlığı. Portföydeki her daireyi kendimiz geziyoruz.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<!-- Yazı tipleri -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="atla" href="#icerik">İçeriğe geç</a>
+
+<!-- ============================================================
+     ÜST MENÜ
+     ============================================================ -->
+<header class="ustbar" id="ustbar">
+  <div class="kapsayici ustbar-ic">
+
+    <a class="logo" href="#" aria-label="MAJÖR Gayrimenkul ana sayfa">
+      <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M6 28V13.5L16 5l10 8.5V28"/>
+        <path d="M12.5 28V19h7v9"/>
+        <path class="logo-esik" d="M3 28h26"/>
+      </svg>
+      <span class="logo-yazi">MAJÖR<em>Gayrimenkul</em></span>
+    </a>
+
+    <nav class="menu" id="menu" aria-label="Ana menü">
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <!-- Üstteki "Bizi arayın" düğmesi. Numaranızı buraya da yazın: tel:+903261234567 -->
+    <a class="dugme dugme-kucuk" href="tel:+90DOLDURUN">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="ikon-mini"><path d="M5 3h4l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+      <span>Bizi arayın</span>
+    </a>
+
+    <button class="menu-dugmesi" id="menuDugmesi" aria-expanded="false" aria-controls="menu" aria-label="Menüyü aç">
+      <span></span><span></span>
+    </button>
+
+  </div>
+</header>
+
+<main id="icerik">
+
+<!-- ============================================================
+     GİRİŞ BÖLÜMÜ (HERO)
+     ============================================================ -->
+<section class="giris">
+  <div class="kapsayici">
+
+    <p class="etiket bel-1">Hatay İskenderun · Gayrimenkul danışmanlığı</p>
+
+    <h1 class="giris-baslik">
+      <span class="bel-2">Semtini bilen bir danışmanla</span>
+      <span class="bel-3">ev bakmak <em>başka.</em></span>
+    </h1>
+
+    <p class="giris-metin bel-4">
+      2011'den beri İskenderun ve çevresinde alım, satım ve kiralama süreçlerini
+      baştan sona yürütüyoruz. Portföyümüzdeki her daireyi kendimiz geziyor,
+      görmediğimiz bir evi size önermiyoruz.
+    </p>
+
+    <div class="giris-dugmeler bel-5">
+      <a class="dugme" href="#iletisim">Bize ulaşın</a>
+      <a class="dugme dugme-cizgi" href="#hizmetler">Ne yapıyoruz?</a>
+    </div>
+
+  </div>
+
+  <!-- İMZA DETAYI: sayfa açılınca kendi kendine çizilen bina silueti -->
+  <div class="siluet" aria-hidden="true">
+    <svg viewBox="0 0 1200 260" preserveAspectRatio="xMidYMax slice">
+      <g class="cizgiler">
+        <!-- zemin -->
+        <path d="M0 246h1200"/>
+        <!-- 1. bina -->
+        <path d="M40 246V150h96v96"/>
+        <path d="M56 170h20v20h-20zM100 170h20v20h-20zM56 206h20v22h-20zM100 206h20v22h-20z"/>
+        <!-- 2. bina: çatılı ev -->
+        <path d="M156 246v-64l54-40 54 40v64"/>
+        <path d="M192 246v-42h36v42"/>
+        <path d="M186 168h18v16h-18z"/>
+        <!-- 3. bina: yüksek blok -->
+        <path d="M284 246V72h120v174"/>
+        <path d="M284 108h120M284 144h120M284 180h120M284 214h120"/>
+        <path d="M320 72V52M368 72V52"/>
+        <!-- 4. bina: kemerli cephe -->
+        <path d="M424 246V132h110v114"/>
+        <path d="M444 246v-52a35 35 0 0 1 70 0v52"/>
+        <path d="M424 132l55-30 55 30"/>
+        <!-- 5. bina: geniş dükkân -->
+        <path d="M554 246v-78h150v78"/>
+        <path d="M554 194h150"/>
+        <path d="M584 246v-34h34v34"/>
+        <path d="M650 214h34v32h-34z"/>
+        <!-- 6. bina: ince kule -->
+        <path d="M724 246V40h68v206"/>
+        <path d="M724 76h68M724 112h68M724 148h68M724 184h68M724 216h68"/>
+        <path d="M758 40V18"/>
+        <!-- 7. bina: teraslı -->
+        <path d="M812 246v-96h84v-40h74v136"/>
+        <path d="M830 176h22v22h-22zM866 176h14v22h-14z"/>
+        <path d="M912 130h20v20h-20zM940 130h14v20h-14zM912 176h42v22h-42z"/>
+        <!-- 8. bina: sıra ev -->
+        <path d="M990 246v-70l40-30 40 30v70"/>
+        <path d="M1070 246v-70l40-30 40 30v70"/>
+        <path d="M1012 246v-32h26v32M1092 246v-32h26v32"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<!-- ============================================================
+     KÜNYE ŞERİDİ — en çok sorulan üç bilgi
+     ============================================================ -->
+<section class="serit">
+  <div class="kapsayici serit-ic">
+    <div class="serit-oge">
+      <span class="etiket">Hizmet bölgesi</span>
+      <p>İskenderun ve çevresi</p>
+    </div>
+    <div class="serit-oge">
+      <span class="etiket">Kuruluş</span>
+      <p>2011</p>
+    </div>
+    <div class="serit-oge">
+      <span class="etiket">Çalışma saatleri</span>
+      <p>Hafta içi 09.00–19.00 · Cumartesi 10.00–16.00</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HAKKIMIZDA
+     ============================================================ -->
+<section class="bolum" id="hakkimizda">
+  <div class="kapsayici hakkimizda-izgara">
+
+    <div class="hakkimizda-metin belir">
+      <span class="etiket">Hakkımızda</span>
+      <h2>Ev bakmak yorucu bir iş. Yorucu kısmını biz üstleniyoruz.</h2>
+      <p>
+        MAJÖR, 2011'den bu yana İskenderun'da çalışan bir gayrimenkul
+        danışmanlık ofisi. Bizim için gayrimenkul, ilan sayısıyla değil, doğru
+        eşleşmeyle ölçülür: bütçenize, ulaşımınıza ve gündelik hayatınıza uyan
+        yeri bulana kadar aramaya devam ederiz.
+      </p>
+      <p>
+        Portföyümüze aldığımız her daireyi önce kendimiz geziyoruz. Binanın
+        yaşını, ısınma giderini, aidatını ve tapu durumunu siz sormadan
+        anlatıyoruz. Süreç bittiğinde tapu devri, sözleşme ve taşınma takvimi
+        dahil her adımda yanınızdayız.
+      </p>
+    </div>
+
+    <!-- Künye tablosu: firmanın somut bilgileri -->
+    <dl class="kunye belir">
+      <div>
+        <dt>Kuruluş</dt>
+        <dd>2011</dd>
+      </div>
+      <div>
+        <dt>Şehir</dt>
+        <dd>İskenderun / Hatay</dd>
+      </div>
+      <div>
+        <dt>Hizmet bölgesi</dt>
+        <dd>İskenderun ve çevre ilçeler</dd>
+      </div>
+      <div>
+        <dt>Uzmanlık</dt>
+        <dd>Konut ve ticari gayrimenkul</dd>
+      </div>
+    </dl>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     HİZMETLER
+     ============================================================ -->
+<section class="bolum bolum-kum" id="hizmetler">
+  <div class="kapsayici">
+
+    <div class="bolum-basi belir">
+      <span class="etiket">Hizmetler</span>
+      <h2>Dört başlıkta çalışıyoruz.</h2>
+    </div>
+
+    <div class="kartlar">
+
+      <article class="kart belir">
+        <svg class="ikon" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M8 40V21L24 9l16 12v19"/>
+          <path d="M18 40V28h12v12"/>
+          <path d="M4 40h40"/>
+          <circle cx="24" cy="21" r="3"/>
+        </svg>
+        <h3>Konut satışı</h3>
+        <p>
+          Evinizi doğru fiyatla listeliyor, alıcı adaylarını önceden eleyerek
+          sadece ciddi olanları kapınıza getiriyoruz.
+        </p>
+      </article>
+
+      <article class="kart belir">
+        <svg class="ikon" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="17" cy="17" r="9"/>
+          <circle cx="17" cy="17" r="2.5"/>
+          <path d="M23.5 23.5L40 40"/>
+          <path d="M33 33l5-5M37 37l4-4"/>
+        </svg>
+        <h3>Kiralama</h3>
+        <p>
+          Kiracı bulmaktan sözleşmeye ve teslim tutanağına kadar süreci
+          yürütüyor, her kiracı adayının referansını kontrol ediyoruz.
+        </p>
+      </article>
+
+      <article class="kart belir">
+        <svg class="ikon" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M10 40V12h16v28"/>
+          <path d="M26 40V22h12v18"/>
+          <path d="M4 40h40"/>
+          <path d="M15 18h6M15 25h6M15 32h6M31 28h3M31 34h3"/>
+        </svg>
+        <h3>Ticari gayrimenkul</h3>
+        <p>
+          Dükkân, ofis ve depo için yer seçimi: yaya trafiği, ruhsat durumu ve
+          komşu esnaf yapısını birlikte değerlendiriyoruz.
+        </p>
+      </article>
+
+      <article class="kart belir">
+        <svg class="ikon" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M7 41h34"/>
+          <path d="M7 41V7"/>
+          <path d="M13 33l9-10 7 6 12-16"/>
+          <path d="M33 13h8v8"/>
+        </svg>
+        <h3>Yatırım danışmanlığı</h3>
+        <p>
+          Bütçenize göre bölge ve tip önerisi: beklenen kira getirisi ile
+          gerçekleşen satış fiyatlarını yan yana koyup karar veriyoruz.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     İLETİŞİM
+     ============================================================ -->
+<section class="bolum iletisim" id="iletisim">
+  <div class="kapsayici iletisim-izgara">
+
+    <div class="iletisim-sol">
+      <span class="etiket">İletişim</span>
+      <h2>Bir kahve içimlik sohbetle başlayalım.</h2>
+      <p class="iletisim-giris">
+        Aklınızdaki ev ya da satmak istediğiniz mülk hakkında konuşmak için
+        randevuya gerek yok. Arayın, ofiste değilsek geri dönelim.
+      </p>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         BURAYI SİZ DOLDURACAKSINIZ
+         Aşağıdaki 4 satırda "DOLDURUN" yazan yerleri değiştirin.
+         Her satırda iki yer var:
+           1) href="..."  -> tıklanınca çalışan kısım
+           2) <strong>...</strong> -> ekranda görünen yazı
+         Telefonu href içine boşluksuz ve +90 ile yazın: tel:+903261234567
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="iletisim-sag">
+      <a class="baglanti-satiri" href="tel:+90DOLDURUN">
+        <span class="etiket">Telefon</span>
+        <strong>Telefon numarası eklenecek</strong>
+      </a>
+      <a class="baglanti-satiri" href="https://wa.me/90DOLDURUN" target="_blank" rel="noopener">
+        <span class="etiket">WhatsApp</span>
+        <strong>WhatsApp numarası eklenecek</strong>
+      </a>
+      <a class="baglanti-satiri" href="mailto:DOLDURUN@example.com">
+        <span class="etiket">E-posta</span>
+        <strong>E-posta adresi eklenecek</strong>
+      </a>
+      <div class="baglanti-satiri baglanti-duz">
+        <span class="etiket">Ofis</span>
+        <strong>İskenderun / Hatay — açık adres eklenecek</strong>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     ALT BİLGİ
+     ============================================================ -->
+<footer class="altbilgi">
+  <div class="kapsayici altbilgi-ic">
+    <p>© <span id="yil">2026</span> MAJÖR Gayrimenkul</p>
+    <!-- Sosyal medya hesaplarınızın adreslerini href="..." içine yazın -->
+    <p class="altbilgi-sosyal">
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/90DOLDURUN" target="_blank" rel="noopener">WhatsApp</a>
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
