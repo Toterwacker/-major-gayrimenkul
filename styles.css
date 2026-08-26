@@ -222,12 +222,20 @@ button:focus-visible {
 }
 
 .giris-baslik {
-  font-size: clamp(2.35rem, 6.2vw, 4.7rem);
-  margin-bottom: 1.6rem;
+  font-size: clamp(2.6rem, 7vw, 5.4rem);
+  margin-bottom: 0.9rem;
   text-wrap: balance;
 }
-.giris-baslik span { display: block; }
-.giris-baslik em {
+.giris-baslik .vurgu { color: var(--deniz); }
+
+.giris-slogan {
+  font-family: var(--baslik-font);
+  font-style: italic;
+  font-size: clamp(1.15rem, 2.1vw, 1.5rem);
+  color: var(--govde);
+  margin-bottom: 1.4rem;
+}
+.giris-slogan em {
   font-style: italic;
   color: var(--deniz);
 }
